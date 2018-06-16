@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>GuaGua</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <!--Main melon-->
+        <div id = "melon">
+            <img src = "img/watermelon.png">
+        </div>
+        
+        <!--Store section-->
+        <div id = "top">
+            <b>Store</b>
+            <div id = "store"></div>
+        </div>
+        
+        <!--Bottom bar-->
+        <div id = "bottom">
+            <img src = "img/sad.png">
+            <div id="melon-progress">
+              <div id="melon-bar"></div>
+            </div>
+            <img src = "img/happy.png">
+            <div style = "position:relative;left:50%;transform:translateX(-25%)">
+                <b>Total melons: </b> <span id = "num-melons"></span>
+            </div>
+        </div>
+        
+        <!--Amount indicator-->
+        <div id = "amt-ind"></div>
+        
+        <!--Win Screen-->
+        <div id = "win">
+            <h1>You Win!</h1>
+            <h2>Happy Father's Day!</h2>
+            <img src = "img/dad.JPG" height = "400px" style = "transform:rotate(180deg)">
+        </div>
+        
+        <script src = "script.js"></script>
+    </body>
+</html>
