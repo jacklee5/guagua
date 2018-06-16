@@ -8,7 +8,7 @@ let mps = 0;
 let mpc = 1;
 
 //winning amount of melons
-let win = 100;
+let win = 1000000;
 
 //types of upgrades
 let UPGRADES = {
